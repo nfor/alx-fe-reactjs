@@ -3,30 +3,70 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "ingredients": ["200g spaghetti", "100g pancetta", "2 eggs", "50g parmesan cheese", "Black pepper"],
+    "instructions": [
+      "Cook spaghetti according to package instructions.",
+      "Fry pancetta until crispy.",
+      "Mix eggs and parmesan together in a bowl.",
+      "Combine spaghetti, pancetta, and egg mixture off the heat.",
+      "Season with black pepper and serve immediately."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "ingredients": ["500g chicken breast", "150g yogurt", "2 tbsp tikka masala spice", "1 onion", "200ml tomato puree", "50ml cream"],
+    "instructions": [
+      "Marinate chicken with yogurt and tikka masala spice for at least 2 hours.",
+      "Grill or pan-fry the chicken until cooked.",
+      "Sauté onions, add tomato puree and cream, and simmer.",
+      "Add chicken to the sauce and cook for 10 minutes.",
+      "Serve hot with rice or naan."
+    ]
   },
   {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "Tender strips of beef cooked in a creamy mushroom sauce served over noodles or rice.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "ingredients": ["400g beef strips", "200g mushrooms", "1 onion", "150ml sour cream", "2 tbsp flour", "2 tbsp butter"],
+    "instructions": [
+      "Sauté onions and mushrooms in butter until soft.",
+      "Add beef strips and cook until browned.",
+      "Sprinkle flour and stir to thicken.",
+      "Add sour cream and simmer for 5-7 minutes.",
+      "Serve over noodles or rice."
+    ]
   },
   {
     "id": 4,
     "title": "Greek Salad",
     "summary": "A refreshing mix of tomatoes, cucumbers, olives, feta cheese, and red onions.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "ingredients": ["2 tomatoes", "1 cucumber", "100g feta cheese", "50g olives", "1/2 red onion", "Olive oil", "Oregano"],
+    "instructions": [
+      "Chop tomatoes, cucumber, and red onion.",
+      "Mix vegetables with olives in a bowl.",
+      "Crumble feta cheese on top.",
+      "Drizzle with olive oil and sprinkle oregano.",
+      "Toss gently and serve."
+    ]
   },
   {
     "id": 5,
     "title": "Vegetable Stir Fry",
     "summary": "Colorful vegetables sautéed with soy sauce, garlic, and ginger.",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/600x400",
+    "ingredients": ["1 bell pepper", "1 carrot", "100g broccoli", "2 cloves garlic", "1 tbsp ginger", "2 tbsp soy sauce", "1 tbsp oil"],
+    "instructions": [
+      "Chop all vegetables into bite-sized pieces.",
+      "Heat oil in a pan and sauté garlic and ginger.",
+      "Add vegetables and stir-fry for 5-7 minutes.",
+      "Add soy sauce and cook for another 2 minutes.",
+      "Serve hot as a side or with rice."
+    ]
   }
 ]
