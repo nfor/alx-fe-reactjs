@@ -11,9 +11,20 @@ const HomePage = () => {
 
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-10">
+      {/* Page Title */}
+      <h1 className="text-3xl font-bold text-center mb-4">
         Recipe Sharing Platform
       </h1>
+
+      {/* Add Recipe Button */}
+      <div className="text-center mb-8">
+        <Link
+          to="/add-recipe"
+          className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded transition"
+        >
+          Add New Recipe
+        </Link>
+      </div>
 
       {/* Responsive Grid */}
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
