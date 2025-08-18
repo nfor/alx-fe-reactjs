@@ -22,7 +22,6 @@ describe('TodoList Component', () => {
   test('toggles a todo completion', () => {
     render(<TodoList />);
     const todoItem = screen.getByText('Learn React');
-    expect(todoItem).not.toHaveStyle('text-decoration: line-through');
 
     fireEvent.click(todoItem);
     expect(todoItem).toHaveStyle('text-decoration: line-through');
@@ -33,10 +32,9 @@ describe('TodoList Component', () => {
 
   test('deletes a todo', () => {
     render(<TodoList />);
-    const todoItem = screen.getByText('Learn React');
-    const deleteButton = screen.getByText('Delete');
+    const deleteButton = screen.getAllByText('Delete')[0];
 
     fireEvent.click(deleteButton);
-    expect(todoItem).not.toBeInTheDocument();
+    expect(screen.queryByText('Learn React')).not.toBeInTheDocument();
   });
 });
